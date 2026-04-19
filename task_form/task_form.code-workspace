@@ -17,6 +17,13 @@
 				"-file-line-error",
 				"task_form"
 			]
-		}]
+		}],
+		"latex-workshop.latex.recipes": [
+            {
+                "name": "latexmk (xelatex)",
+                "tools": ["latexmk"]
+            }
+        ],
+		"latex-workshop.latex.recipe.default": "latexmk (xelatex)"
 	}
 }

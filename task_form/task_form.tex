@@ -1,3 +1,4 @@
+% !TeX program = xelatex
 \documentclass[12pt, А4, twoside]{article}
 
     \usepackage{fontspec}
@@ -16,23 +17,15 @@
     \setmainlanguage[babelshorthands = true]{russian}
     \setotherlanguage{english}
 
-    \defaultfontfeatures[ArrialNarrow]{
-        Path = fonts/,
-        Extension = .ttf,
-        UprightFont = arialnarrow,
-        BoldFont = arialnarrow_bold,
-        ItalicFont = arialnarrow_italic,
-        BoldItalicFont = arialnarrow_bolditalic,
-    }
+\setmainfont{Times New Roman}
+\setsansfont{Arial Narrow}[Renderer=HarfBuzz]
 
-    \setmainfont{Times New Roman}
-    \setsansfont[Ligatures=TeX]{ArialNarrow}
+% Кириллические семейства
+\newfontfamily\cyrillicfont[Script=Cyrillic]{Times New Roman}
+\newfontfamily\cyrillicfontsf[Script=Cyrillic]{Arial Narrow}[Renderer=HarfBuzz]
 
-    \newfontfamily\cyrillicfont[Script=Cyrillic]{Times New Roman}
-    \newfontfamily\cyrillicfontsf[Script=Cyrillic]{ArialNarrow}
-
-    \newfontfamily\englishfont{Times New Roman}
-    \newfontfamily\englishfontsf{ArialNarrow}
+\newfontfamily\englishfont{Times New Roman}
+\newfontfamily\englishfontsf{Arial Narrow}[Renderer=HarfBuzz]
 
     \pagenumbering{gobble}
 
@@ -72,7 +65,7 @@
     \begin{tabular}{p{1.0cm} p{5.0cm} p{2.0cm}}
         \textsf{<< \hspace{4mm} >>} &
         \vspace{0pt} \hline &
-        \textsf{2024 г.} \\
+        \textsf{2026 г.} \\
     \end{tabular}
 
 \end{FlushLeft}
@@ -88,39 +81,33 @@
 
     \begin{tabular}{p{1.9cm} p{14.95cm}}
         \textsf{Студенту} &
-        \textsf{Абоимову Илье Вадимовичу} \vspace{0pt} \hline
+        \textsf{Кужиру Владиславу Витальевичу} \vspace{0pt} \hline
     \end{tabular}
 
-    \vspace{-0.1 cm}
+    \vspace{-0.05 cm}
 
     \begin{tabular}{p{2.8cm} p{14.05cm}}
         \textsf{1. Тема проекта} &
-        \textsf{Разработка модуля прогнозирования данных временных рядов технологического} \vspace{0pt} \hline
+        \textsf{Разработка серверной части приложения "Такси"} \vspace{0pt} \hline
     \end{tabular}
 
-    \vspace{-0.1 cm}
-
-    \begin{tabular}{p{2.8cm} p{14.05cm}}
-        & \textsf{процесса пастеризационной установки} \vspace{0pt} \hline
-    \end{tabular}
-
-    \vspace{-0.1 cm}
+    \vspace{-0.05 cm}
 
     \begin{tabular}{p{5.9cm} p{4.8cm} p{0.3cm} p{5.0cm}}
         \textsf{(Утверждена приказом по вузу от} &
-        \centering \textsf{13.03.2024} \vspace{1pt} \hline &
+        \centering \textsf{29.01.2026} \vspace{1pt} \hline &
         \centering \textsf{№} &
-        \centering \textsf{249-C \hspace{0.5cm} )} \hline
+        \centering \textsf{97-C \hspace{0.4cm} )} \hline
     \end{tabular}
 
-    \vspace{-0.1 cm}
+    \vspace{-0.05 cm}
 
     \begin{tabular}{p{9.4cm} p{7.45cm}}
         \textsf{2. Сроки сдачи студентом законченного проекта} &
-        \centering \textsf{07.06.2024} \vspace{1pt} \hline
+        \centering \textsf{07.06.2026} \vspace{1pt} \hline
     \end{tabular}
 
-    \vspace{-0.1 cm}
+    \vspace{-0.09 cm}
 
     \begin{tabular}{p{5.7cm} p{11.15cm}}
         \textsf{3. Исходные данные к проекту} &
@@ -146,7 +133,7 @@
     \vspace{-0.1 cm}
 
     \begin{tabular}{p{17.25cm}}
-        \hspace{0.6cm} \textsf{- Текст программы модуля должен быть написан на C++}\vspace{0pt} \hline \\
+        \hspace{0.6cm} \textsf{- Текст программы должен быть написан на Java}\vspace{0pt} \hline \\
     \end{tabular}
 
     \vspace{-0.1 cm}
@@ -325,19 +312,19 @@
     \vspace{-0.1 cm}
 
     \begin{tabular}{p{17.25cm}}
-        \hspace{0.3cm} \textsf{ст. преподаватель Иванюк Д. С.} \hspace{4.065cm} \textsf{{--} по основным разделам} \vspace{0pt} \hline \\
+        \hspace{0.3cm} \textsf{ст. преподаватель Гирель Т. Н.} \hspace{4.065cm} \textsf{{--} по основным разделам} \vspace{0pt} \hline \\
     \end{tabular}
 
     \vspace{-0.1 cm}
 
     \begin{tabular}{p{17.25cm}}
-        \hspace{0.3cm} \textsf{ассистент кафедры ИИТ Булей Е. В.} \hspace{3.3325cm} \textsf{{--} нормоконтроль} \vspace{0pt} \hline \\
+        \hspace{0.3cm} \textsf{??????ассистент кафедры ИИТ Булей Е. В.??????} \hspace{2.3325cm} \textsf{{--} нормоконтроль} \vspace{0pt} \hline \\
     \end{tabular}
 
     \vspace{-0.1 cm}
 
     \begin{tabular}{p{17.25cm}}
-        \hspace{0.3cm} \textsf{доцент кафедры МЭМИ, к.э.н., доцент Четырбок Н. П.} \hspace{0.5cm} \textsf{{--} экономический раздел}\vspace{0pt} \hline \\
+        \hspace{0.3cm} \textsf{зав. кафедры МЭМИ, к.т.н., доцент Поровский А. Г.} \hspace{0.5cm} \textsf{{--} экономический раздел}\vspace{0pt} \hline \\
     \end{tabular}
 
     \begin{tabular}{p{17.25cm}}
@@ -347,7 +334,7 @@
     \vspace{-0.1 cm}
 
     \begin{tabular}{p{17.25cm}}
-        \textsf{7. Дата выдачи задания: 19.04.2024 г.} \vspace{0pt} \hline \\
+       \textsf{7. Дата выдачи задания: ??19.04.2024?? г.} \vspace{0pt} \hline
     \end{tabular}
 
     \begin{tabular}{p{17.25cm}}
@@ -437,12 +424,12 @@
 
     \begin{tabular}{p{7.5cm} p{0.5cm} p{6.0cm} p{2.0cm}}
         \textsf{Задание принял к исполнению (дата)} & &
-        \centering \textsf{19.04.2024} \vspace{1pt} \hline &
+        \centering \textsf{19.04.2026} \vspace{1pt} \hline &
         \\
         & & &
     \end{tabular}
 
-    \begin{tabular}{p{4.0cm} p{0.2cm} p{9.8cm} p{2.0cm}}
+    \begin{tabular}{p{4.0cm} p{0.2cm} p{9.8cm} p{2.0cm}} 
         \textsf{(подпись студента)} & &
         \vspace{0pt} \hline &
         \\ 

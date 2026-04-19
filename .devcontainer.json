@@ -1,0 +1,17 @@
+{
+    "name": "LaTeX Russian (XeLaTeX + full TeX Live)",
+    "image": "qmcgaw/latexdevcontainer:latest-full",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "James-Yu.latex-workshop"
+            ]
+        }
+    },
+
+    "postCreateCommand": "tlmgr update --self --all || echo 'tlmgr update skipped'",
+
+    "remoteUser": "root",
+    "features": {}
+}

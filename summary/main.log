@@ -1,0 +1,575 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  19 APR 2026 12:44
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(./preamble.tex (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count192
+\c@chapter=\count193
+\c@section=\count194
+\c@subsection=\count195
+\c@subsubsection=\count196
+\c@paragraph=\count197
+\c@subparagraph=\count198
+\c@figure=\count199
+\c@table=\count266
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip51
+\RaggedLeftLeftskip=\skip52
+\RaggedRightLeftskip=\skip53
+\CenteringRightskip=\skip54
+\RaggedLeftRightskip=\skip55
+\RaggedRightRightskip=\skip56
+\CenteringParfillskip=\skip57
+\RaggedLeftParfillskip=\skip58
+\RaggedRightParfillskip=\skip59
+\JustifyingParfillskip=\skip60
+\CenteringParindent=\skip61
+\RaggedLeftParindent=\skip62
+\RaggedRightParindent=\skip63
+\JustifyingParindent=\skip64
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count267
+\Gm@cntv=\count268
+\c@Gm@tempcnt=\count269
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen150
+\ttl@minus=\dimen151
+\ttl@toksa=\toks19
+\titlewidth=\dimen152
+\titlewidthlast=\dimen153
+\titlewidthfirst=\dimen154
+)
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count270
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
+\babel@savecnt=\count271
+\U@D=\dimen155
+\l@unhyphenated=\language12
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count272
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
+File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
+Language: russian 2020/09/09 1.3k Russian support for the Babel system
+Package babel Info: Making " an active character on input line 124.
+Package babel Info: Default for \cyrdash is provided on input line 163.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/ru/babel-russian.tex
+Package babel Info: Importing font and identification data for russian
+(babel)             from babel-ru.ini. Reported on input line 11.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2023/11/07 v1.0k Cyrillic encoding definition file
+)
+LaTeX Font Info:    Trying to load font information for T2A+lmr on input line 1
+16.
+LaTeX Font Info:    No file T2Almr.fd. on input line 116.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
+16.
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+
+LaTeX Font Warning: Font shape `T2A/lmr/m/n' undefined
+(Font)              using `T2A/cmr/m/n' instead on input line 116.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count273
+\l__pdf_internal_box=\box53
+\g__pdf_backend_annotation_int=\count274
+\g__pdf_backend_link_int=\count275
+))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count276
+\l__fontspec_language_int=\count277
+\l__fontspec_strnum_int=\count278
+\l__fontspec_tmp_int=\count279
+\l__fontspec_tmpa_int=\count280
+\l__fontspec_tmpb_int=\count281
+\l__fontspec_tmpc_int=\count282
+\l__fontspec_em_int=\count283
+\l__fontspec_emdef_int=\count284
+\l__fontspec_strong_int=\count285
+\l__fontspec_strongdef_int=\count286
+\l__fontspec_tmpa_dim=\dimen156
+\l__fontspec_tmpb_dim=\dimen157
+\l__fontspec_tmpc_dim=\dimen158
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2025/01/31 v2.4 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
+
+
+Package polyglossia Warning: You have loaded both babel and polyglossia.
+(polyglossia)                The two packages are mutually exclusive!
+
+\l_xpg_alias_keyvals_int=\count287
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-russian.ldf
+File: gloss-russian.ldf polyglossia: module for Russian
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/xpg-cyrillicnumbers.sty
+Package: xpg-cyrillicnumbers 2019/11/15 v0.2 Formatting of Cyrillic alphabetic 
+numbers
+))
+
+Package polyglossia Info: Default language is russian
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for English
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Ligatures=TeX,Mapping=tex-text,Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:language=dflt;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Arial(0)' created for font 'Arial' with
+(fontspec)             options
+(fontspec)             [Ligatures=TeX,Mapping=tex-text,Ligatures=TeX,Ligatures=
+TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Arial/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Arial/B/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Arial/I/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Arial/BI/OT:language=dflt;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Script 'Cyrillic' not explicitly supported within font
+(fontspec)             'Times New Roman'. Check the typeset output, and if it
+(fontspec)             is okay then ignore this warning. Otherwise a different
+(fontspec)             font should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(1)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Ligatures=TeX,Mapping=tex-text,Script=Cyrillic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=cyrl;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=cyrl;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=cyrl;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=cyrl;language=dflt;mapping=tex-text;"
+
+
+
+Package fontspec Info: 
+(fontspec)             Script 'Cyrillic' not explicitly supported within font
+(fontspec)             'Arial'. Check the typeset output, and if it is okay
+(fontspec)             then ignore this warning. Otherwise a different font
+(fontspec)             should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Arial(1)' created for font 'Arial' with
+(fontspec)             options
+(fontspec)             [Ligatures=TeX,Mapping=tex-text,Script=Cyrillic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Arial/OT:script=cyrl;language=dflt;mapping=tex-text;
+"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Arial/B/OT:script=cyrl;language=dflt;mapping=tex-tex
+t;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Arial/I/OT:script=cyrl;language=dflt;mapping=tex-tex
+t;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Arial/BI/OT:script=cyrl;language=dflt;mapping=tex-te
+xt;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(2)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Ligatures=TeX,Mapping=tex-text].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:language=dflt;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Arial(2)' created for font 'Arial' with
+(fontspec)             options [Ligatures=TeX,Mapping=tex-text].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Arial/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Arial/B/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Arial/I/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Arial/BI/OT:language=dflt;mapping=tex-text;"
+
+
+(/usr/share/texlive/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/realscripts/realscripts.sty
+Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
+ts
+\subsupersep=\dimen159
+)
+(/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
+)
+\xl@everylogo=\toks22
+\xl@@everylogo=\toks23
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+\l__xetex_show_hyphens_wrapping_box=\box54
+\l__xetex_show_hyphens_temp_box=\box55
+\l__xetex_show_hyphens_final_box=\box56
+\g__xetex_show_hyphens_word_box=\box57
+)
+\c@chaptercntr=\count288
+\c@subchaptercntr=\count289
+)
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(73.97733pt, 492.23235pt, 31.2982pt)
+* v-part:(T,H,B)=(63.16515pt, 707.90437pt, 73.97733pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=497.92322pt
+* \textheight=739.77165pt
+* \oddsidemargin=-1.42262pt
+* \evensidemargin=1.70734pt
+* \topmargin=-69.70915pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining russian shorthand "-
+(babel)             in language  on input line 2.
+LaTeX Info: Redefining \th on input line 2.
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 2.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 2.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 2.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 2.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 2.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 2.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 2.
+LaTeX Font Info:    Redeclaring math accent \check on input line 2.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 2.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 2.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 2.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 2.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 2.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 2.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 2.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 2.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 2.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 2.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 2.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 2.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 2.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 2.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 2.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 2.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 2.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 2.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 2
+.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 2.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+2.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
+input line 2.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 2.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+2.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/Arial(0)/m/n on input line 2.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 2.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 2.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 2.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/Arial(0)/b/n on input line 2.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 2.
+(./summary.tex)
+
+
+Overfull \hbox (28.45pt too wide) has occurred while \output is active
+[] 
+ []
+
+
+Overfull \vbox (815.87848pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (501.25656pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+[4
+
+] (./main.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7888 strings out of 475106
+ 190444 string characters out of 5766694
+ 644759 words of memory out of 5000000
+ 30690 multiletter control sequences out of 15000+600000
+ 560074 words of font info for 92 fonts, out of 8000000 for 9000
+ 682 hyphenation exceptions out of 8191
+ 92i,16n,96p,1193b,295s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (1 page).

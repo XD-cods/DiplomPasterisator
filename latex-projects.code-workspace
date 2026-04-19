@@ -1,0 +1,61 @@
+{
+    "folders": [
+        {
+            "path": ".",
+            "name": "Root"
+        },
+        {
+            "path": "annotation",
+            "name": "Annotation"
+        },
+        {
+            "path": "diplom",
+            "name": "Diplom"
+        },
+        {
+            "path": "task_form",
+            "name": "Task Form"
+        },
+        {
+            "path": "title",
+            "name": "Title"
+        },
+        {
+            "path": "summary",
+            "name": "Summary"
+        }
+        // Добавляй новые проекты сюда по мере необходимости
+    ],
+    "settings": {
+        "cSpell.enabled": false,
+
+        "latex-workshop.latex.tools": [
+            {
+                "name": "latexmk-xelatex",
+                "command": "latexmk",
+                "args": [
+                    "-xelatex",
+                    "-synctex=1",
+                    "-outdir=out",
+                    "-interaction=nonstopmode",
+                    "-file-line-error",
+                    "--shell-escape",
+                    "%DOC%"
+                ]
+            }
+        ],
+
+        "latex-workshop.latex.recipes": [
+            {
+                "name": "latexmk (xelatex)",
+                "tools": ["latexmk-xelatex"]
+            }
+        ],
+
+        "latex-workshop.latex.recipe.default": "latexmk (xelatex)",
+        "latex-workshop.view.pdf.viewer": "tab",
+        "latex-workshop.intellisense.package.enabled": true,
+        "latex-workshop.message.error.show": true,
+        "latex-workshop.message.warning.show": true
+    }
+}

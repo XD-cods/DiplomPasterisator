@@ -4,6 +4,12 @@
 % openany - начинаем новую главу со следующей новой страницей
 % 14pt - стандартный размер шрифта 
 
+\usepackage[hyphens]{url}
+\usepackage[hidelinks, unicode]{hyperref} % hidelinks убирает цветные рамки вокруг ссылок
+
+% Настройка для максимально агрессивного переноса URL
+\def\UrlBreaks{\do\/\do\-\do\.\do\&\do\_\do\?\do\=\do\0\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X\do\Y\do\Z}
+
 \usepackage{ragged2e} % патек для нормального выравнивания текста
 
 \usepackage{geometry} % пакет для работы с разметкой страницы
@@ -43,8 +49,6 @@
 
 \usepackage{tabularray}
 
-\usepackage{nicematrix}
-
 % настройка шрифтов и языков
     \usepackage[english, russian]{babel} % для работы с английским и русским языками
     \usepackage[T2A]{fontenc} % для норм паказа символов в pdf
@@ -59,6 +63,8 @@
 
     \setmainfont{Times New Roman} % устанавливаем главный шрифт 
     \setsansfont[Ligatures=TeX]{Arial} % устонавливаем дополнительный шрмфт 
+    \setmonofont{Times New Roman} % Заставляем моноширинный шрифт быть как основной
+    \urlstyle{same} % шрифт ссылки будет такой же, как у основного текста (Times New Roman)
 
     \newfontfamily\cyrillicfont[Script=Cyrillic]{Times New Roman} % делаем так, чтобы русский язык мог отображаться главным шрифтом 
     \newfontfamily\cyrillicfontsf[Script=Cyrillic]{Arial} % делаем так, чтобы русский язык мог отображаться дополнительным шрифтом 
@@ -118,7 +124,7 @@
                     \put(54.5, -0.25){\line(0,1){15}}
                     \put(54.5, -0.25){\Box{10}{\gostRamkaFont Дата}}
                     \put(64.5, 0){\line(0,1){15}}
-                    \put(64.5, 0){\makebox(109,15){\cyrillicfont \englishfont \fontsize{18pt}{0pt}\selectfont ДП.АС59.200043-05 81 00}}
+                    \put(64.5, 0){\makebox(109,15){\cyrillicfont \englishfont \fontsize{18pt}{0pt}\selectfont ДП.АС64.220047-05 81 00}}
                     \put(174.5, 0){\makebox(10,25){\gostRamkaFont\selectfont Лист}}
                     \put(174.5, 0){\line(0,1){15}}
                     \put(174.5, 0){\makebox(10,10){\cyrillicfont \englishfont \fontsize{12pt}{0pt}\selectfont \thepage}}
