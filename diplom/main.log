@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  19 APR 2026 12:52
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  20 APR 2026 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1106,44 +1106,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 3.
 
 (./Chapter_1.tex
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 34.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 34.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 34.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 34.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 34.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 34.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 34.
-
-
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1168,30 +1130,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ]
-
-Package svg Warning: You should specify the image size with parameters
-(svg)                `width' and `height' or `scale' instead of using
-(svg)                `\svgscale' or `\svgwidth' on input line 92.
-
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `images/PUS_structure.svg' on input line 92.
-
-
-! Package svg Error: File `PUS_structure_svg-raw.png' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 ...desvg[scale=0.6]{images/PUS_structure.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/PUS_structure_svg-raw.png'
-although `images/PUS_structure.svg' was found.
-
-
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1232,6 +1170,18 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [7]
+Overfull \hbox (6.89326pt too wide) in paragraph at lines 75--76
+[] \TU/TimesNewRoman(3)/m/n/13 В высоконагруженных системах большое внимание уд
+еляется согласованности дан-
+ []
+
+
+Overfull \hbox (11.1552pt too wide) in paragraph at lines 75--76
+\TU/TimesNewRoman(3)/m/n/13 ных. В серверной части приложения такси одна бизнес
+-операция может затрагивать несколь-
+ []
+
+
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1252,6 +1202,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [8]
+Overfull \hbox (3.2683pt too wide) in paragraph at lines 89--90
+\TU/TimesNewRoman(3)/m/n/13 ных, производительности, безопасности и наблюдаемос
+ти. Эти требования непосредствен-
+ []
+
+
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1272,6 +1228,18 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [9]
+Overfull \hbox (4.9181pt too wide) in paragraph at lines 127--128
+[] \TU/TimesNewRoman(3)/m/n/13 Существенным недостатком микросервисного подхода
+ является повышенная слож-
+ []
+
+
+Overfull \hbox (3.16936pt too wide) in paragraph at lines 129--130
+[] \TU/TimesNewRoman(3)/m/n/13 Сравнение архитектурных подходов показывает, что
+ монолитная архитектура обес-
+ []
+
+
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1293,34 +1261,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [10]
 
-Package svg Warning: You should specify the image size with parameters
-(svg)                `width' and `height' or `scale' instead of using
-(svg)                `\svgscale' or `\svgwidth' on input line 168.
-
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `images/NNBlackBox.svg' on input line 168.
-
-
-! Package svg Error: File `NNBlackBox_svg-raw.png' is missing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 ...desvg[width=145mm]{images/NNBlackBox.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/NNBlackBox_svg-raw.png'
-although `images/NNBlackBox.svg' was found.
-
-File: images/NNWhiteBox.png Graphic file (type bmp)
-<images/NNWhiteBox.png>
-File: images/Neuron.png Graphic file (type bmp)
-<images/Neuron.png>
-
-
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
 [] 
@@ -1340,23 +1280,21 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [11]
-Overfull \hbox (8.53294pt too wide) in paragraph at lines 202--202
-[]\TU/TimesNewRoman(0)/m/n/13 где| 
+Overfull \hbox (5.1277pt too wide) in paragraph at lines 163--164
+[] \TU/TimesNewRoman(3)/m/n/13 Другим важным нефункциональным требованием являе
+тся масштабируемость. Так
  []
 
 
-Overfull \hbox (6.12476pt too wide) in paragraph at lines 201--207
-[][] 
+Overfull \hbox (3.31891pt too wide) in paragraph at lines 165--166
+\TU/TimesNewRoman(3)/m/n/13 Даже в минимально жизнеспособном продукте необходим
+о предусмотреть обработку оши-
  []
 
 
-Overfull \hbox (8.53294pt too wide) in paragraph at lines 215--215
-[]\TU/TimesNewRoman(0)/m/n/13 где| 
- []
-
-
-Overfull \hbox (6.12476pt too wide) in paragraph at lines 214--218
-[][] 
+Overfull \hbox (4.72145pt too wide) in paragraph at lines 169--170
+[] \TU/TimesNewRoman(3)/m/n/13 Важным требованием является сопровождаемость. Ра
+зрабатываемая система долж-
  []
 
 
@@ -1379,7 +1317,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[12]
+[12])
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1399,35 +1337,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[13])
-
-
-Overfull \hbox (31.29527pt too wide) has occurred while \output is active
-[] 
- []
-
-
-Overfull \vbox (813.74454pt too high) has occurred while \output is active []
-
-
-Overfull \hbox (498.41129pt too wide) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[] 
- []
-
-[14] (./main.aux)
+[13] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1436,12 +1350,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22244 strings out of 475106
- 454541 string characters out of 5766694
- 945900 words of memory out of 5000000
- 44767 multiletter control sequences out of 15000+600000
- 566820 words of font info for 124 fonts, out of 8000000 for 9000
+ 22114 strings out of 475106
+ 451873 string characters out of 5766694
+ 944631 words of memory out of 5000000
+ 44667 multiletter control sequences out of 15000+600000
+ 560442 words of font info for 94 fonts, out of 8000000 for 9000
  682 hyphenation exceptions out of 8191
- 99i,17n,96p,1240b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,17n,96p,1193b,400s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (10 pages).
+Output written on main.pdf (9 pages).
