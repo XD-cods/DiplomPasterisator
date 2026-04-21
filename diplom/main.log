@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  20 APR 2026 19:16
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  21 APR 2026 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,6 +990,9 @@ Package hyperref Info: Link coloring OFF on input line 3.
 \openout4 = `main.out'.
 
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1105,7 +1108,72 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/TimesNewRoman(1)/b/n on input line 
 3.
 
-(./Chapter_1.tex
+(./Chapter_3.tex
+Underfull \hbox (badness 6741) in paragraph at lines 31--32
+ []\TU/TimesNewRoman(3)/m/n/13 Таблица 3.1 – Описание данных технологического п
+роцесса 
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 33.
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
+(Font)              size <12> substituted on input line 33.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
+(Font)              size <6> substituted on input line 33.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 33.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 33.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 33.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 33.
+
+
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 48.
+
+
+Package svg Warning: You didn't enable `shell escape' (or `write18')
+(svg)                so it wasn't possible to launch the Inkscape export
+(svg)                for `images/PUS_cids.svg' on input line 48.
+
+
+! Package svg Error: File `PUS_cids_svg-raw.png' is missing.
+
+See the svg package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...includesvg[scale=0.6]{images/PUS_cids.svg}
+                                                  
+Did you run the export with Inkscape? There's no file
+`./svg-inkscape/PUS_cids_svg-raw.png'
+although `images/PUS_cids.svg' was found.
+
+
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1126,7 +1194,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [5
-
 
 
 ]
@@ -1150,6 +1217,21 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [6]
+File: images/data_1_visual.jpg Graphic file (type bmp)
+<images/data_1_visual.jpg>
+File: images/data_2_visual.jpg Graphic file (type bmp)
+<images/data_2_visual.jpg>
+File: images/data_3_visual.jpg Graphic file (type bmp)
+<images/data_3_visual.jpg>
+File: images/data_1_anomaly.png Graphic file (type bmp)
+<images/data_1_anomaly.png>
+
+Overfull \hbox (0.11615pt too wide) in paragraph at lines 99--100
+[] \TU/TimesNewRoman(0)/m/n/13 Поэтому первый .csv файл для обучения рассматрив
+аться не будет, поскольку необ-
+ []
+
+
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1170,18 +1252,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [7]
-Overfull \hbox (6.89326pt too wide) in paragraph at lines 75--76
-[] \TU/TimesNewRoman(3)/m/n/13 В высоконагруженных системах большое внимание уд
-еляется согласованности дан-
- []
-
-
-Overfull \hbox (11.1552pt too wide) in paragraph at lines 75--76
-\TU/TimesNewRoman(3)/m/n/13 ных. В серверной части приложения такси одна бизнес
--операция может затрагивать несколь-
- []
-
-
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1202,12 +1272,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [8]
-Overfull \hbox (3.2683pt too wide) in paragraph at lines 89--90
-\TU/TimesNewRoman(3)/m/n/13 ных, производительности, безопасности и наблюдаемос
-ти. Эти требования непосредствен-
- []
-
-
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1228,18 +1292,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [9]
-Overfull \hbox (4.9181pt too wide) in paragraph at lines 127--128
-[] \TU/TimesNewRoman(3)/m/n/13 Существенным недостатком микросервисного подхода
- является повышенная слож-
- []
-
-
-Overfull \hbox (3.16936pt too wide) in paragraph at lines 129--130
-[] \TU/TimesNewRoman(3)/m/n/13 Сравнение архитектурных подходов показывает, что
- монолитная архитектура обес-
- []
-
-
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1280,21 +1332,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [11]
-Overfull \hbox (5.1277pt too wide) in paragraph at lines 163--164
-[] \TU/TimesNewRoman(3)/m/n/13 Другим важным нефункциональным требованием являе
-тся масштабируемость. Так
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+ []\TU/TimesNewRoman(0)/m/n/13 <сид>;<время>;<значение> 
  []
 
 
-Overfull \hbox (3.31891pt too wide) in paragraph at lines 165--166
-\TU/TimesNewRoman(3)/m/n/13 Даже в минимально жизнеспособном продукте необходим
-о предусмотреть обработку оши-
- []
-
-
-Overfull \hbox (4.72145pt too wide) in paragraph at lines 169--170
-[] \TU/TimesNewRoman(3)/m/n/13 Важным требованием является сопровождаемость. Ра
-зрабатываемая система долж-
+Overfull \hbox (0.43501pt too wide) in paragraph at lines 145--146
+\TU/TimesNewRoman(0)/m/n/13 сеть, которая учитывает зависимости между различным
+и датчиками, была обеспечена дан-
  []
 
 
@@ -1317,7 +1362,27 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[12])
+[12]
+Overfull \hbox (8.53294pt too wide) in paragraph at lines 155--155
+[]\TU/TimesNewRoman(0)/m/n/13 где| 
+ []
+
+
+Overfull \hbox (6.12476pt too wide) in paragraph at lines 154--160
+[][] 
+ []
+
+
+Overfull \hbox (8.53294pt too wide) in paragraph at lines 169--169
+[]\TU/TimesNewRoman(0)/m/n/13 где| 
+ []
+
+
+Overfull \hbox (6.12476pt too wide) in paragraph at lines 168--171
+[][] 
+ []
+
+
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1337,25 +1402,52 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[13] (./main.aux)
+[13])
+
+
+Overfull \hbox (31.29527pt too wide) has occurred while \output is active
+[] 
+ []
+
+
+Overfull \vbox (813.74454pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (498.41129pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+[14] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22114 strings out of 475106
- 451873 string characters out of 5766694
- 944631 words of memory out of 5000000
- 44667 multiletter control sequences out of 15000+600000
- 560442 words of font info for 94 fonts, out of 8000000 for 9000
+ 22250 strings out of 475106
+ 454627 string characters out of 5766694
+ 948569 words of memory out of 5000000
+ 44773 multiletter control sequences out of 15000+600000
+ 566796 words of font info for 121 fonts, out of 8000000 for 9000
  682 hyphenation exceptions out of 8191
- 99i,17n,96p,1193b,400s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,16n,96p,1193b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (9 pages).
+Output written on main.pdf (10 pages).
