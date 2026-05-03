@@ -1,0 +1,89 @@
+Стиль текста: Академический, сухой, без использования первого лица ("я", "мы"), как будто бы писал обычный студент.
+
+Символы: - ЗАПРЕЩЕНО использовать длинное тире (—) и среднее тире (–). Вместо них используй только обычный дефис (-).
+
+Используй только "прямые кавычки". ЗАПРЕЩЕНО использовать «ёлочки».
+
+Сокращения: Используй общепринятые IT-аббревиатуры из файла reduction.tex (ИС, БД, СУБД, API, REST, JWT, JDK, микросервис).
+
+\sectionbreak \section*{ 
+	\gostTitleFont
+	\redline
+	СПИСОК СОКРАЩЕНИЙ
+}
+\titlespace
+
+{\gostFont
+	
+	\begin{tabular}{p{0.85cm} p{1.75cm} p{0.3cm} p{131.5mm}}
+		& БД & {--} & база данных. \\
+		& ИС & {--} & информационная система. \\
+		& ПО & {--} & программное обеспечение. \\
+		& ПП & {--} & программный продукт. \\
+		& СУБД & {--} & система управления базами данных. \\
+		& ТЗ & {--} & техническое задание. \\
+		& API & {--} & (Application Programming Interface) программный интерфейс приложения. \\
+		& HTTP & {--} & (HyperText Transfer Protocol) протокол передачи гипертекста. \\
+		& IDE & {--} & (Integrated Development Environment) интегрированная среда разработки. \\
+		& JDK & {--} & (Java Development Kit) комплект разработчика приложений на языке Java. \\
+		& JSON & {--} & (JavaScript Object Notation) текстовый формат обмена данными. \\
+		& JPA & {--} & (Java Persistence API) спецификация Java EE, описывающая систему управления сохранением объектов. \\
+		& JWT & {--} & (JSON Web Token) стандарт для создания токенов доступа, используемый для авторизации. \\
+		& ORM & {--} & (Object-Relational Mapping) технология программирования, которая связывает базы данных с концепциями объектно-ориентированных языков программирования. \\
+		& REST & {--} & (Representational State Transfer) архитектурный стиль взаимодействия компонентов распределённого приложения. \\
+		& SQL & {--} & (Structured Query Language) язык структурированных запросов. \\
+	\end{tabular}
+	
+}
+
+Цитирование: - Расставь ссылки на литературу в формате [номер].
+
+Не цитируй каждый абзац. Ставь ссылки только на ключевые тезисы или классические определения.
+
+Ориентируйся на авторов: 
+	\sectionbreak \section*{ 
+	\gostTitleFont
+	\redline
+	СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ
+}
+\titlespace
+
+{\sloppy \gostFont
+	
+	\begin{itemize}[leftmargin=2.15cm, labelwidth=0.65cm, labelsep=0.0cm] 
+		
+		\item[\theimagecntr.] Ричардсон, К. Микросервисы. Паттерны разработки и рефакторинга / К. Ричардсон ; пер. с англ. А. Слинкина. – СПб. : Питер, 2020. – 544 с.
+		\addtocounter{imagecntr}{1}
+		
+		\item[\theimagecntr.] Клеппман, М. Высоконагруженные приложения. Программирование, масштабирование, поддержка / М. Клеппман ; пер. с англ. Н. Вильчинского. – СПб. : Питер, 2023. – 688 с.
+		\addtocounter{imagecntr}{1}
+		
+		\item[\theimagecntr.] Карнелл, Дж. Микросервисы Spring в действии / Дж. Карнелл, И. Санчес ; пер. с англ. – 2-е изд. – СПб. : Питер, 2022. – 448 с.
+		\addtocounter{imagecntr}{1}
+		
+		\item[\theimagecntr.] Мартин, Р. Чистая архитектура. Искусство разработки программного обеспечения / Р. Мартин ; пер. с англ. А. А. Слинкина. – СПб. : Питер, 2021. – 352 с. 
+		\addtocounter{imagecntr}{1}
+		
+		\item[\theimagecntr.] Spring Boot Reference Documentation [Электронный ресурс] / VMware, Inc. – 2026. – Режим доступа: \url{https://docs.spring.io/spring-boot/docs/current/reference/html/}. – Дата доступа: 19.04.2026.
+		\addtocounter{imagecntr}{1}
+		
+		\item[\theimagecntr.] PostgreSQL 16 Documentation [Электронный ресурс] / PostgreSQL Global Development Group. – 2025. – Режим доступа: \url{https://www.postgresql.org/docs/16/index.html}. – Дата доступа: 19.04.2026.
+		\addtocounter{imagecntr}{1}
+		
+		\item[\theimagecntr.] Redis Geospatial [Электронный ресурс] / Redis Ltd. – 2026. – Режим доступа: \url{https://redis.io/docs/latest/develop/data-types/geospatial/}. – Дата доступа: 19.04.2026.
+		\addtocounter{imagecntr}{1}
+		
+		\item[\theimagecntr.] Apache Kafka Documentation [Электронный ресурс] / The Apache Software Foundation. – 2026. – Режим доступа: \url{https://kafka.apache.org/documentation/}. – Дата доступа: 19.04.2026.
+		\addtocounter{imagecntr}{1}
+		
+		\item[\theimagecntr.] СТБ ISO/IEC 12207-2011. Информационные технологии. Процессы жизненного цикла программных средств. – Минск : Госстандарт, 2011. – 112 с.
+		\addtocounter{imagecntr}{1}
+		
+		\item[\theimagecntr.] ГОСТ 19.101-77. Единая система программной документации. Виды программ и программных документов. – М. : Стандартинформ, 2010. – 3 с.
+		\addtocounter{imagecntr}{1}
+		
+	\end{itemize}
+}
+
+Пример оформления заголовка раздела:
+\par 1.1 Общие сведения о сервисах заказа такси \dotfill
