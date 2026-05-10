@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  10 MAY 2026 13:47
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  10 MAY 2026 13:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1106,6 +1106,18 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 3.
 
 (./Chapter_5.tex
+Overfull \hbox (10.13206pt too wide) in paragraph at lines 29--30
+\TU/TimesNewRoman(3)/m/n/13 WAITING_FOR_DRIVER, а в таблице kafka_messages появ
+илась запись с топиком passenger-
+ []
+
+
+Overfull \hbox (4.23045pt too wide) in paragraph at lines 31--32
+[] \TU/TimesNewRoman(3)/m/n/13 Для тестирования пользовательских сценариев в пр
+оекте используется подход BDD
+ []
+
+
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1130,18 +1142,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ]
-Overfull \hbox (0.25682pt too wide) in paragraph at lines 81--82
-[] \TU/TimesNewRoman(3)/m/n/13 Данные преимущества платформы PLCnext в совокупн
-ости с преимуществами вы-
- []
-
-
-Overfull \hbox (3.47238pt too wide) in paragraph at lines 83--84
-\TU/TimesNewRoman(3)/m/n/13 DI16/DO16/AI4, ползунковый потенциометр, Ethernet-к
-абель для подключения, книга стар-
- []
-
-
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1162,8 +1162,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [6]
-File: images/pclnext_x.png Graphic file (type bmp)
-<images/pclnext_x.png>
+Overfull \hbox (1.87137pt too wide) in paragraph at lines 65--66
+[] \TU/TimesNewRoman(3)/m/n/13 Контейнер Redis используется для кэширования гео
+данных в сервисе поездок. Кон-
+ []
+
+
+Overfull \hbox (20.33656pt too wide) in paragraph at lines 67--68
+[] \TU/TimesNewRoman(3)/m/n/13 Для локальной разработки предусмотрен упрощённый
+ файл docker-compose-local.yml.
+ []
+
 
 
 
@@ -1185,52 +1194,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [7]
-File: images/pclnext_complect.png Graphic file (type bmp)
-<images/pclnext_complect.png>
-
-
-
-Overfull \hbox (31.29527pt too wide) has occurred while \output is active
-[] 
- []
-
-
-Overfull \vbox (813.74454pt too high) has occurred while \output is active []
-
-
-Overfull \hbox (498.41129pt too wide) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[] 
- []
-
-[8]
-
-
-Overfull \hbox (31.29527pt too wide) has occurred while \output is active
-[] 
- []
-
-
-Overfull \vbox (813.74454pt too high) has occurred while \output is active []
-
-
-Overfull \hbox (498.41129pt too wide) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[] 
- []
-
-[9]
-Overfull \hbox (1.2707pt too wide) in paragraph at lines 258--260
-\TU/TimesNewRoman(3)/m/n/13 мерческого использования, включая академические и л
-ичные проекты. Это поз-
+Overfull \hbox (7.17468pt too wide) in paragraph at lines 99--100
+[] \TU/TimesNewRoman(3)/m/n/13 Экспорт трассировок в Tempo осуществляется через
+ протокол OTLP (OpenTelemetry
  []
 
 
@@ -1253,7 +1219,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[10]
+[8])
 
 
 Overfull \hbox (31.29527pt too wide) has occurred while \output is active
@@ -1273,32 +1239,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[11]
-File: images/ResultsDumping.png Graphic file (type bmp)
-<images/ResultsDumping.png>
-File: images/ResultsPredicts.png Graphic file (type bmp)
-<images/ResultsPredicts.png>
-)
-
-
-Overfull \hbox (31.29527pt too wide) has occurred while \output is active
-[] 
- []
-
-
-Overfull \vbox (813.74454pt too high) has occurred while \output is active []
-
-
-Overfull \hbox (498.41129pt too wide) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[] 
- []
-
-[12] (./main.aux)
+[9] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1311,12 +1252,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22157 strings out of 475106
- 453151 string characters out of 5766694
- 943904 words of memory out of 5000000
- 44704 multiletter control sequences out of 15000+600000
+ 22112 strings out of 475106
+ 451843 string characters out of 5766694
+ 945631 words of memory out of 5000000
+ 44665 multiletter control sequences out of 15000+600000
  560442 words of font info for 94 fonts, out of 8000000 for 9000
  682 hyphenation exceptions out of 8191
- 99i,16n,96p,1193b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,16n,96p,1193b,404s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (8 pages).
+Output written on main.pdf (5 pages).
