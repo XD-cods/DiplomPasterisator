@@ -1,0 +1,125 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'fontFamily': 'Times New Roman, serif',
+    'primaryColor': '#ffffff',
+    'primaryTextColor': '#000000',
+    'primaryBorderColor': '#000000',
+    'lineColor': '#000000',
+    'secondaryColor': '#ffffff',
+    'tertiaryColor': '#ffffff'
+  }
+}}%%
+flowchart TB
+    %% ─── СТИЛИ ЧЕРНО-БЕЛЫЕ ПО ГОСТ 19.701-90 ───
+    classDef client fill:#ffffff,stroke:#000000,color:#000000,stroke-width:3px
+    classDef gateway fill:#ffffff,stroke:#000000,color:#000000,stroke-width:2.5px
+    classDef service fill:#ffffff,stroke:#000000,color:#000000,stroke-width:1.5px
+    classDef external fill:#ffffff,stroke:#000000,color:#000000,stroke-width:2px
+    classDef db fill:#ffffff,stroke:#000000,color:#000000,stroke-width:2px
+    classDef cache fill:#ffffff,stroke:#000000,color:#000000,stroke-width:1.5px
+    classDef infra fill:#ffffff,stroke:#000000,color:#000000,stroke-width:1px
+    classDef kafka fill:#ffffff,stroke:#000000,color:#000000,stroke-width:1.5px
+
+    %% ─── ИНФРАСТРУКТУРА ───
+    subgraph INFRA [Инфраструктурные сервисы]
+        Eureka["Eureka Server :8761<br/>Service Discovery"]:::infra
+        Config["Config Server :8888<br/>Централизованная конфигурация"]:::infra
+        Gateway["API Gateway :8080<br/>Spring Cloud Gateway + OAuth2"]:::gateway
+    end
+
+    %% ─── КЛИЕНТЫ ───
+    Client["Клиентское приложение<br/>(Mobile / Web)"]:::client
+
+    %% ─── СЕРВИСЫ ───
+    subgraph SERVICES [Микросервисы приложения]
+        Auth["Auth Service :5006<br/>Регистрация / Аутентификация"]:::service
+        Passenger["Passenger Service :5008<br/>Управление пассажирами"]:::service
+        Driver["Driver Service :5003<br/>Управление водителями и авто"]:::service
+        Ride["Ride Service :5009<br/>Управление поездками"]:::service
+        Rating["Rating Service :5007<br/>Рейтинг и отзывы"]:::service
+    end
+
+    %% ─── БАЗЫ ДАННЫХ (ФИГУРЫ ДАННЫХ/ЦИЛИНДРЫ) ───
+    subgraph DB [Хранилища данных]
+        PgPassenger[["PostgreSQL<br/>passengers"]]:::db
+        PgDriver[["PostgreSQL<br/>drivers + cars"]]:::db
+        PgRide[["PostgreSQL<br/>rides + addresses<br/>+ kafka_messages"]]:::db
+        PgRating[["PostgreSQL<br/>ride_info + ratings"]]:::db
+        Redis[["Redis<br/>geocode / distance кэш"]]:::cache
+    end
+
+    %% ─── ВНЕШНИЕ СИСТЕМЫ ───
+    subgraph EXTERNAL [Внешние системы]
+        Keycloak["Keycloak<br/>OAuth2 / OIDC провайдер"]:::external
+        Mapbox["Mapbox API<br/>Geocoding + Directions"]:::external
+        Payment["Платёжная система<br/>(внешняя)"]:::external
+    end
+
+    %% ─── БРОКЕР СООБЩЕНИЙ ───
+    subgraph KAFKA [Apache Kafka]
+        TopicPass["passenger.status.updated"]:::kafka
+        TopicDriver["driver.status.updated"]:::kafka
+        TopicRide["ride.completed"]:::kafka
+    end
+
+    %% ════════════════════════════════════════════════
+    %% СВЯЗИ
+    %% ════════════════════════════════════════════════
+
+    %% Клиент → Gateway
+    Client -->|"HTTP / REST"| Gateway
+
+    %% Gateway → Сервисы
+    Gateway -->|"/api/v1/auth/**"| Auth
+    Gateway -->|"/api/v1/passengers/**"| Passenger
+    Gateway -->|"/api/v1/drivers/**"| Driver
+    Gateway -->|"/api/v1/cars/**"| Driver
+    Gateway -->|"/api/v1/rides/**"| Ride
+    Gateway -->|"/api/v1/ratings/**"| Rating
+
+    %% Auth → Keycloak
+    Auth -->|"Создание/проверка пользователя"| Keycloak
+
+    %% Feign (межсервисные вызовы)
+    Auth -.->|"Feign: createPassenger"| Passenger
+    Auth -.->|"Feign: createDriver"| Driver
+    Ride -.->|"Feign: getPassengerById"| Passenger
+    Ride -.->|"Feign: getDriverById"| Driver
+
+    %% Ride → External
+    Ride -.->|"Geocoding API"| Mapbox
+
+    %% Ride → Redis
+    Ride -.->|"Кэш адресов / расстояний"| Redis
+
+    %% Сервисы → Базы данных
+    Passenger --- PgPassenger
+    Driver --- PgDriver
+    Ride --- PgRide
+    Rating --- PgRating
+
+    %% Kafka
+    Ride -.->|"Производит:"| TopicPass
+    Ride -.->|"Производит:"| TopicDriver
+    Ride -.->|"Производит:"| TopicRide
+    TopicPass -.->|"Consumer"| Passenger
+    TopicDriver -.->|"Consumer"| Driver
+    TopicRide -.->|"Consumer"| Rating
+
+    %% Payment
+    Ride -.->|"PATCH → PAID"| Payment
+
+    %% Инфраструктурные связи
+    Auth -.- Eureka
+    Passenger -.- Eureka
+    Driver -.- Eureka
+    Ride -.- Eureka
+    Rating -.- Eureka
+
+    Auth -.- Config
+    Passenger -.- Config
+    Driver -.- Config
+    Ride -.- Config
+    Rating -.- Config
+

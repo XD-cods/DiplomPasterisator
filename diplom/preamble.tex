@@ -10,13 +10,15 @@
 % Настройка для максимально агрессивного переноса URL
 \def\UrlBreaks{\do\/\do\-\do\.\do\&\do\_\do\?\do\=\do\0\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X\do\Y\do\Z}
 
+
+
 \usepackage{ragged2e} % патек для нормального выравнивания текста
 
 \usepackage{geometry} % пакет для работы с разметкой страницы
 \geometry{left=2.5cm} % левый отступ
-\geometry{right=10.0cm} % правый отступ
+\geometry{right=1.0cm} % правый отступ
 \geometry{top=1.0cm} % верхний отступ
-\geometry{bottom=2.5cm} % нижний отступ
+\geometry{bottom=3.5cm} % нижний отступ
 
 \usepackage{titlesec} % пакет для работы с разделами 
 \newcommand{\sectionbreak}{\clearpage} % что каждый раздел начинался с новой страницы
@@ -72,7 +74,6 @@
     \newfontfamily\englishfont{Times New Roman} % делаем так, чтобы английский язык мог отображаться главным шрифтом 
     \newfontfamily\englishfontsf{Arial} % делаем так, чтобы английский язык мог отображаться дополнительным шрифтом 
 
-% Определяем переменные 
     \newcommand\spc{\hspace{0.08cm}} % отступ от каунтера
     \newcommand\redline{\hspace{1.5cm}} % красная строка
     \newcommand\formulaspace{\vspace{0.4cm}} % красная строка
@@ -91,15 +92,12 @@
     \newcommand\FThTin{\fontsize{13pt}{15.6pt}\selectfont} 
 
 
+
 % Рисует рамку
     \usepackage{xltxtra}
 
-    \textheight=260mm
-    \textwidth=174mm
+
     \unitlength=1mm
-    
-    \oddsidemargin=-0.5mm
-    \topmargin=-2.45cm
 
     \def\Box#1#2{\makebox(#1,5){#2}}
     \def\simpleGrad{\noindent\hbox to 0pt{

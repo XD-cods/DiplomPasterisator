@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  7 MAY 2026 14:31
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  11 JUN 2026 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -554,69 +554,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
- []\TU/Arial(2)/b/n/16 ПАСТЕРИЗАЦИОННОЙ УСТАНОВКИ 
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+ []\TU/Arial(2)/b/n/16 РАЗРАБОТКА СЕРВЕРНОЙ ЧАСТИ 
  []
 
 
-Underfull \hbox (badness 7522) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+ []\TU/Arial(2)/b/n/16 ПРИЛОЖЕНИЯ ”ТАКСИ” 
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 114--115
  []\TU/Arial(2)/m/n/12 ПОЯСНИТЕЛЬНАЯ ЗАПИСКА К ДИПЛОМНОМУ ПРОЕКТУ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
  []\TU/Arial(2)/b/n/16 ДП.АС64.220047-05 81 00 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
- []\TU/Arial(2)/m/n/16 Листов – 
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+ []\TU/Arial(2)/m/n/16 Листов __ 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 145.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 143.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14> on input line 145.
+(Font)              <14> on input line 143.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.79996> on input line 145.
+(Font)              <9.79996> on input line 143.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 145.
+(Font)              <7> on input line 143.
 
-Overfull \hbox (18.92813pt too wide) in paragraph at lines 145--148
+Overfull \hbox (18.92813pt too wide) in paragraph at lines 143--146
 [][]  
  []
 
 
-Overfull \hbox (18.92813pt too wide) in paragraph at lines 151--154
+Overfull \hbox (18.92813pt too wide) in paragraph at lines 149--152
 [][]  
  []
 
 
-Overfull \hbox (18.92813pt too wide) in paragraph at lines 157--161
+Overfull \hbox (18.92813pt too wide) in paragraph at lines 155--159
 [][]  
  []
 
 
-Overfull \hbox (18.92813pt too wide) in paragraph at lines 164--168
+Overfull \hbox (18.92813pt too wide) in paragraph at lines 162--165
 [][]  
  []
 
 
-Overfull \hbox (18.92813pt too wide) in paragraph at lines 171--174
+Overfull \hbox (18.92813pt too wide) in paragraph at lines 168--171
 [][]  
  []
 
 
-Overfull \hbox (18.92813pt too wide) in paragraph at lines 177--180
+Overfull \hbox (18.92813pt too wide) in paragraph at lines 174--177
 [][]  
  []
 
 
-Overfull \hbox (18.92813pt too wide) in paragraph at lines 183--186
-[][]  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
  []\TU/Arial(2)/m/n/14 2026 г. 
  []
 
@@ -653,10 +653,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 7512 strings out of 475106
- 183656 string characters out of 5766694
- 629639 words of memory out of 5000000
- 30328 multiletter control sequences out of 15000+600000
+ 7514 strings out of 475106
+ 183689 string characters out of 5766694
+ 627639 words of memory out of 5000000
+ 30330 multiletter control sequences out of 15000+600000
  563723 words of font info for 104 fonts, out of 8000000 for 9000
  682 hyphenation exceptions out of 8191
  87i,16n,93p,282b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s

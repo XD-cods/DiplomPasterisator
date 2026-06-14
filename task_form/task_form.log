@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  9 MAY 2026 13:46
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  4 JUN 2026 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -758,20 +758,7 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 198--201
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.205 ...ОЛЬЗУЕМЫХ ТЕХНОЛОГИЙ} \vspace{0pt} \hline
-                                                   \\
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (5.1715pt too wide) in paragraph at lines 204--207
-[][]  
- []
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.211 ...ТУРЫ СЕРВЕРНОЙ ЧАСТИ} \vspace{0pt} \hline
+l.211 ...ТИРОВАНИЕ СИСТЕМЫ} \vspace{0.03cm} \hline
                                                    \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -784,7 +771,7 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 210--213
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.217 ...ВНЫХ МОДУЛЕЙ СИСТЕМЫ} \vspace{0pt} \hline
+l.217 ... МОДУЛЕЙ СИСТЕМЫ} \vspace{-0.06cm} \hline
                                                    \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -901,21 +888,21 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 260--263
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.267 ...чертежей и графиков)} \vspace{0pt} \hline
-                                                   \\
+l.265 ^^I^^I\vspace{0pt} \hline
+                                \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (5.1715pt too wide) in paragraph at lines 266--269
+Overfull \hbox (5.1715pt too wide) in paragraph at lines 264--267
 [][]  
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.271         \vspace{0pt} \hline
-                                  \\
+l.271 ...чертежей и графиков)} \vspace{0pt} \hline
+                                                   \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -927,73 +914,73 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 270--273
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.277 ...чертёж -- формат А1)} \vspace{0pt} \hline
-                                                    \\
+l.275         \vspace{0pt} \hline
+                                  \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (5.1715pt too wide) in paragraph at lines 276--279
+Overfull \hbox (5.1715pt too wide) in paragraph at lines 274--277
 [][]  
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.283 ...чертёж -- формат А1)} \vspace{0pt} \hline
+l.281 ...плакат -- формат А1)} \vspace{0pt} \hline
                                                     \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (5.1715pt too wide) in paragraph at lines 282--285
+Overfull \hbox (5.1715pt too wide) in paragraph at lines 280--283
 [][]  
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.289 ...плакат -- формат А1)} \vspace{0pt} \hline
+l.287 ...чертёж -- формат А1)} \vspace{0pt} \hline
                                                     \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (5.1715pt too wide) in paragraph at lines 288--291
+Overfull \hbox (5.1715pt too wide) in paragraph at lines 286--289
 [][]  
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.295 ...чертёж -- формат А1)} \vspace{0pt} \hline
+l.293 ...плакат -- формат А1)} \vspace{0pt} \hline
                                                     \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (5.1715pt too wide) in paragraph at lines 294--297
+Overfull \hbox (5.1715pt too wide) in paragraph at lines 292--295
 [][]  
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.301 ...плакат -- формат А1)} \vspace{0pt} \hline
+l.299 ...чертёж -- формат А1)} \vspace{0pt} \hline
                                                     \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (5.1715pt too wide) in paragraph at lines 300--303
+Overfull \hbox (5.1715pt too wide) in paragraph at lines 298--301
 [][]  
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.305         \vspace{0pt} \hline
-                                   \\
+l.305 ...плакат -- формат А1)} \vspace{0pt} \hline
+                                                    \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -1005,39 +992,34 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 304--307
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.311 ...им разделов проекта)} \vspace{0pt} \hline
-                                                   \\
+l.309         \vspace{0pt} \hline
+                                   \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (5.1715pt too wide) in paragraph at lines 310--313
+Overfull \hbox (5.1715pt too wide) in paragraph at lines 308--311
 [][]  
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.315         \vspace{0pt} \hline
+l.317 ...им разделов проекта)} \vspace{0pt} \hline
+                                                   \\
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (5.1715pt too wide) in paragraph at lines 316--319
+[][]  
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.321         \vspace{0pt} \hline
                                   \\
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (5.1715pt too wide) in paragraph at lines 314--317
-[][]  
- []
-
-
-
-[1
-
-]
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.321 ...по основным разделам} \vspace{0pt} \hline
-                                                   \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -1049,7 +1031,7 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 320--323
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.327 ...f{{--} нормоконтроль} \vspace{0pt} \hline
+l.327 ...по основным разделам} \vspace{0pt} \hline
                                                    \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -1059,10 +1041,15 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 326--329
 [][]  
  []
 
+
+
+[1
+
+]
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.333 ... экономический раздел}\vspace{0pt} \hline
+l.333 ...f{{--} нормоконтроль} \vspace{0pt} \hline
                                                    \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -1075,21 +1062,21 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 332--335
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.337         \vspace{0pt} \hline
-                                  \\
+l.339 ... экономический раздел}\vspace{0pt} \hline
+                                                   \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (5.1715pt too wide) in paragraph at lines 336--339
+Overfull \hbox (5.1715pt too wide) in paragraph at lines 338--341
 [][]  
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.343 ...дания: 19.04.2026 г.} \vspace{0pt} \hline
-                                                  
+l.343         \vspace{0pt} \hline
+                                  \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -1101,21 +1088,21 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 342--345
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.347         \vspace{0pt} \hline
-                                  \\
+l.349 ...дания: 19.04.2026 г.} \vspace{0pt} \hline
+                                                  
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (5.1715pt too wide) in paragraph at lines 346--349
+Overfull \hbox (5.1715pt too wide) in paragraph at lines 348--351
 [][]  
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.353 ... (с указанием сроков} \vspace{0pt} \hline
-                                                   \\
+l.353         \vspace{0pt} \hline
+                                  \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -1127,7 +1114,7 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 352--355
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.359 ...ть отдельных этапов)} \vspace{0pt} \hline
+l.359 ... (с указанием сроков} \vspace{0pt} \hline
                                                    \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -1140,21 +1127,21 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 358--361
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.363         \vspace{0pt} \hline
-                                  \\
+l.365 ...ть отдельных этапов)} \vspace{0pt} \hline
+                                                   \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (5.1715pt too wide) in paragraph at lines 362--365
+Overfull \hbox (5.1715pt too wide) in paragraph at lines 364--367
 [][]  
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.369 ...{0.5cm} \textsf{10\%} \vspace{0pt} \hline
-                                                   \\
+l.369         \vspace{0pt} \hline
+                                  \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -1166,8 +1153,8 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 368--371
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.375 ...{0.5cm} \textsf{20\%} \vspace{0pt} \hline
-                                                   \\
+l.375 ...{0.5cm} \textsf{10\%} \vspace{0pt} \hline
+                                                  
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -1179,8 +1166,8 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 374--377
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.381 ...{0.5cm} \textsf{15\%} \vspace{0pt} \hline
-                                                   \\
+l.381 ...{0.5cm} \textsf{20\%} \vspace{0pt} \hline
+                                                  
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -1193,7 +1180,7 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 380--383
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
 l.387 ...{0.5cm} \textsf{15\%} \vspace{0pt} \hline
-                                                   \\
+                                                  
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -1205,8 +1192,8 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 386--389
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.393 ...{0.5cm} \textsf{10\%} \vspace{0pt} \hline
-                                                   \\
+l.393 ...{0.5cm} \textsf{15\%} \vspace{0pt} \hline
+                                                  
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -1218,8 +1205,8 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 392--395
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.399 ...{0.5cm} \textsf{15\%} \vspace{0pt} \hline
-                                                   \\
+l.399 ...{0.5cm} \textsf{10\%} \vspace{0pt} \hline
+                                                  
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -1231,8 +1218,8 @@ Overfull \hbox (5.1715pt too wide) in paragraph at lines 398--401
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.405 ...{0.5cm} \textsf{15\%} \vspace{0pt} \hline
-                                                   \\
+l.405 ...{0.5cm} \textsf{30\%} \vspace{0pt} \hline
+                                                  
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -1336,7 +1323,7 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  5133 strings out of 475106
  141015 string characters out of 5766694
- 598420 words of memory out of 5000000
+ 599420 words of memory out of 5000000
  28022 multiletter control sequences out of 15000+600000
  561965 words of font info for 94 fonts, out of 8000000 for 9000
  682 hyphenation exceptions out of 8191
