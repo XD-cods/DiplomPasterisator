@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  14 JUN 2026 11:23
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  14 JUN 2026 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1814,6 +1814,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
  []
 
 
+
+
+Overfull \hbox (28.44997pt too wide) has occurred while \output is active
+[] 
+ []
+
+
+Overfull \vbox (813.74454pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (502.92325pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+[32
+
+]
 Overfull \hbox (9.63536pt too wide) in paragraph at lines 50--51
 \TU/TimesNewRoman(0)/m/n/13 ACCEPTED, ON_THE_WAY_TO_PASSENGER, PASSENGER_PICKED
 _UP, ON_THE_WAY,
@@ -1826,28 +1848,6 @@ Overfull \hbox (4.3848pt too wide) in paragraph at lines 50--51
  []
 
 
-
-
-Overfull \hbox (28.44997pt too wide) has occurred while \output is active
-[] 
- []
-
-
-Overfull \vbox (813.74454pt too high) has occurred while \output is active []
-
-
-Overfull \hbox (501.25659pt too wide) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[] 
- []
-
-[32
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
  []\TU/TimesNewRoman(0)/m/n/13 Таблица 3.2 – API сервиса поездок 
  []
@@ -1863,7 +1863,7 @@ Overfull \hbox (28.44997pt too wide) has occurred while \output is active
 Overfull \vbox (813.74454pt too high) has occurred while \output is active []
 
 
-Overfull \hbox (501.25659pt too wide) has occurred while \output is active
+Overfull \hbox (502.92325pt too wide) has occurred while \output is active
  [] 
  []
 
@@ -1889,6 +1889,26 @@ Overfull \hbox (1.79404pt too wide) in paragraph at lines 89--90
  []
 
 
+
+
+Overfull \hbox (28.44997pt too wide) has occurred while \output is active
+[] 
+ []
+
+
+Overfull \vbox (813.74454pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (501.25659pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+[34]
 Overfull \hbox (3.10472pt too wide) in paragraph at lines 95--96
 \TU/TimesNewRoman(0)/m/n/13 kafka_messages добавляется событие ride-completed-t
 opic, содержащее идентификаторы по-
@@ -1920,7 +1940,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[34]
+[35]
 
 
 Overfull \hbox (28.44997pt too wide) has occurred while \output is active
@@ -1940,7 +1960,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[35]
+[36]
 Overfull \hbox (8.53294pt too wide) in paragraph at lines 142--142
 []\TU/TimesNewRoman(0)/m/n/13 где| 
  []
@@ -1970,7 +1990,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[36]
+[37]
 
 
 Overfull \hbox (28.44997pt too wide) has occurred while \output is active
@@ -1990,7 +2010,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[37]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 185--186
  []\TU/TimesNewRoman(0)/m/n/13 Таблица 3.3 – API сервиса аутентификации 
  []
@@ -2020,47 +2040,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[38]
-
-
-Overfull \hbox (28.44997pt too wide) has occurred while \output is active
-[] 
- []
-
-
-Overfull \vbox (813.74454pt too high) has occurred while \output is active []
-
-
-Overfull \hbox (501.25659pt too wide) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[] 
- []
-
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
- []\TU/TimesNewRoman(0)/m/n/13 Таблица 3.4 – Топики Kafka 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
-[]\TU/TimesNewRoman(0)/m/n/13 Изменение статуса
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-[]\TU/TimesNewRoman(0)/m/n/13 Изменение статуса
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
-[]\TU/TimesNewRoman(0)/m/n/13 Уведомление о
- []
-
-
 
 
 Overfull \hbox (28.44997pt too wide) has occurred while \output is active
@@ -2081,6 +2061,26 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [40]
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+ []\TU/TimesNewRoman(0)/m/n/13 Таблица 3.4 – Топики Kafka 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
+[]\TU/TimesNewRoman(0)/m/n/13 Изменение статуса
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+[]\TU/TimesNewRoman(0)/m/n/13 Изменение статуса
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
+[]\TU/TimesNewRoman(0)/m/n/13 Уведомление о
+ []
+
+
 Overfull \hbox (1.53394pt too wide) in paragraph at lines 253--254
 \TU/TimesNewRoman(0)/m/n/13 Поле topic содержит имя топика Kafka. Поле key - кл
 юч сообщения типа Long. Поле message
@@ -2106,7 +2106,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[41]) (./Chapter_5.tex
+[41]
 
 
 Overfull \hbox (28.44997pt too wide) has occurred while \output is active
@@ -2126,7 +2126,27 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[42]
+[42]) (./Chapter_5.tex
+
+
+Overfull \hbox (28.44997pt too wide) has occurred while \output is active
+[] 
+ []
+
+
+Overfull \vbox (813.74454pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (501.25659pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+[43]
 Overfull \hbox (7.28676pt too wide) in paragraph at lines 29--30
 \TU/TimesNewRoman(0)/m/n/13 WAITING_FOR_DRIVER, а в таблице kafka_messages появ
 илась запись с топиком passenger-
@@ -2164,7 +2184,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[43
+[44
 
 
 ]
@@ -2187,7 +2207,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[44]
+[45]
 
 
 Overfull \hbox (28.44997pt too wide) has occurred while \output is active
@@ -2207,7 +2227,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[45]
+[46]
 Overfull \hbox (4.32938pt too wide) in paragraph at lines 99--100
 [] \TU/TimesNewRoman(0)/m/n/13 Экспорт трассировок в Tempo осуществляется через
  протокол OTLP (OpenTelemetry
@@ -2233,7 +2253,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[46]) (./Chapter_6.tex
+[47]) (./Chapter_6.tex
 
 
 Overfull \hbox (28.44997pt too wide) has occurred while \output is active
@@ -2253,7 +2273,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[47]
+[48]
 Missing character: There is no ̆ (U+0306) in font Times New Roman/OT:language=d
 flt;mapping=tex-text;!
 Missing character: There is no ̆ (U+0306) in font Times New Roman/OT:language=d
@@ -2284,7 +2304,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[48
+[49
 
 
 ]
@@ -2304,14 +2324,6 @@ Underfull \hbox (badness 2334) in paragraph at lines 74--75
  []
 
 
-Overfull \hbox (0.69727pt too wide) in paragraph at lines 124--125
-[] \TU/TimesNewRoman(0)/m/n/13 Полная себестоимость ($[][]$) разработки програм
-много продукта рассчитывается как
- []
-
-Missing character: There is no ̆ (U+0306) in font Times New Roman/OT:language=d
-flt;mapping=tex-text;!
-
 
 
 Overfull \hbox (28.44997pt too wide) has occurred while \output is active
@@ -2331,7 +2343,15 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[49]
+[50]
+Overfull \hbox (0.69727pt too wide) in paragraph at lines 124--125
+[] \TU/TimesNewRoman(0)/m/n/13 Полная себестоимость ($[][]$) разработки програм
+много продукта рассчитывается как
+ []
+
+Missing character: There is no ̆ (U+0306) in font Times New Roman/OT:language=d
+flt;mapping=tex-text;!
+
 Overfull \hbox (1.22646pt too wide) in paragraph at lines 128--129
 [] \TU/TimesNewRoman(0)/m/n/13 Расчёт заработной платы разработчиков программно
 го продукта начинается с опре-
@@ -2358,7 +2378,7 @@ Overfull \hbox (28.44997pt too wide) has occurred while \output is active
 Overfull \vbox (813.74454pt too high) has occurred while \output is active []
 
 
-Overfull \hbox (502.92325pt too wide) has occurred while \output is active
+Overfull \hbox (501.25659pt too wide) has occurred while \output is active
  [] 
  []
 
@@ -2367,7 +2387,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[50]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 176--177
  []\TU/TimesNewRoman(0)/m/n/13 Таблица 5.2 – Расчет заработной платы 
  []
@@ -2397,7 +2417,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[51]
+[52]
 Overfull \hbox (8.53294pt too wide) in paragraph at lines 231--231
 []\TU/TimesNewRoman(0)/m/n/13 где| 
  []
@@ -2409,21 +2429,6 @@ Overfull \hbox (3.27945pt too wide) in paragraph at lines 230--235
 
 Missing character: There is no ̆ (U+0306) in font Times New Roman/OT:language=d
 flt;mapping=tex-text;!
-
-Overfull \hbox (5.64015pt too wide) in paragraph at lines 270--273
-[] $[]$
- []
-
-
-Overfull \hbox (8.53294pt too wide) in paragraph at lines 282--282
-[]\TU/TimesNewRoman(0)/m/n/13 где| 
- []
-
-
-Overfull \hbox (3.27945pt too wide) in paragraph at lines 281--285
-[][] 
- []
-
 
 
 
@@ -2444,7 +2449,22 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[52]
+[53]
+Overfull \hbox (5.64015pt too wide) in paragraph at lines 270--273
+[] $[]$
+ []
+
+
+Overfull \hbox (8.53294pt too wide) in paragraph at lines 282--282
+[]\TU/TimesNewRoman(0)/m/n/13 где| 
+ []
+
+
+Overfull \hbox (3.27945pt too wide) in paragraph at lines 281--285
+[][] 
+ []
+
+
 Overfull \hbox (8.53294pt too wide) in paragraph at lines 300--300
 []\TU/TimesNewRoman(0)/m/n/13 где| 
  []
@@ -2455,6 +2475,26 @@ Overfull \hbox (3.27945pt too wide) in paragraph at lines 299--302
  []
 
 
+
+
+Overfull \hbox (28.44997pt too wide) has occurred while \output is active
+[] 
+ []
+
+
+Overfull \vbox (813.74454pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (502.92325pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 326--327
  []\TU/TimesNewRoman(0)/m/n/13 Таблица 5.3 – Себестоимость программного продукт
 а 
@@ -2480,7 +2520,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[53]
+[55]
 Overfull \hbox (8.53294pt too wide) in paragraph at lines 411--411
 []\TU/TimesNewRoman(0)/m/n/13 где| 
  []
@@ -2491,31 +2531,31 @@ Overfull \hbox (3.27945pt too wide) in paragraph at lines 410--413
  []
 
 
-
-
-Overfull \hbox (28.44997pt too wide) has occurred while \output is active
-[] 
- []
-
-
-Overfull \vbox (813.74454pt too high) has occurred while \output is active []
-
-
-Overfull \hbox (501.25659pt too wide) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[] 
- []
-
-[54]
 Underfull \hbox (badness 2020) in paragraph at lines 447--457
  [][] 
  []
 
-) (./completion.tex
+
+
+
+Overfull \hbox (28.44997pt too wide) has occurred while \output is active
+[] 
+ []
+
+
+Overfull \vbox (813.74454pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (502.92325pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+[56]) (./completion.tex
 
 
 Overfull \hbox (28.44997pt too wide) has occurred while \output is active
@@ -2535,7 +2575,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[55]
+[57]
 Overfull \hbox (0.37375pt too wide) in paragraph at lines 23--24
 [] \TU/TimesNewRoman(0)/m/n/13 Разработанная система соответствует поставленным
  требованиям и может служить
@@ -2561,7 +2601,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[56
+[58
 
 
 ]
@@ -2589,7 +2629,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[57
+[59
 
 
 ]
@@ -2624,7 +2664,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
 
-[58
+[60
 
 
 ] (./main.aux)
@@ -2644,12 +2684,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22298 strings out of 475106
- 455652 string characters out of 5766694
- 948844 words of memory out of 5000000
+ 22306 strings out of 475106
+ 455690 string characters out of 5766694
+ 947846 words of memory out of 5000000
  44797 multiletter control sequences out of 15000+600000
  565129 words of font info for 117 fonts, out of 8000000 for 9000
- 682 hyphenation exceptions out of 8191
+ 690 hyphenation exceptions out of 8191
  99i,17n,96p,1193b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (54 pages).
+Output written on main.pdf (56 pages).

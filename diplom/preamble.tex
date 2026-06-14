@@ -28,6 +28,9 @@
 
 \usepackage{parskip} % сам настроит интервалы нужным образом
 
+\uchyph=1 % разрешить перенос слов в верхнем регистре
+\hyphenation{API HTTP JSON JWT SQL OAuth REST HTML}
+
 \setcounter{page}{5} % устанавливаем начальную страницу
 
 \usepackage{caption} % для того, чтобы редактировать подписи к картинкам
@@ -46,6 +49,7 @@
 \setlist[itemize]{align=left} % выравнивание по левому краю в лейблах списков
 
 \usepackage{multirow} % для возможности объединения ячеек
+\renewcommand{\arraystretch}{1.5} % минимальная высота ячейки 8 мм
 
 \usepackage{stackengine} 
 
@@ -80,7 +84,7 @@
     \newcommand\topTablespace{\vspace{15.6pt}} % отступ до начала таблиц
     \newcommand\botTablespace{\vspace{18.2pt}} % отступ от конца таблиц
     \newcommand\wherespace{\hspace{0.7cm}} % отступ для пояслений к формулам
-    \newcommand\titlespace{\vspace{26pt}} % промежуток между заголовками 
+    \newcommand\titlespace{\vspace{26pt}} % промежуток между заголовками
     \newcommand\subtitlespace{\vspace{39pt}} % промежуток между заголовком и текстом 
     \newcommand\gostFont{\cyrillicfont \englishfont \fontsize{13pt}{15.6pt}\selectfont} % набор необходимых параметров для обычного текста
     \newcommand\gostTitleFont{\cyrillicfont \englishfont \fontsize{13pt}{0pt}\selectfont \bfseries} % набор необходимых параметров для текста заголовков

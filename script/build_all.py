@@ -22,6 +22,7 @@ def run_script(path):
 
 def main():
     run_script(os.path.join(SCRIPT_DIR, "extract_toc.py"))
+    run_script(os.path.join(SCRIPT_DIR, "update_annotation.py"))
     run_script(os.path.join(SCRIPT_DIR, "assemble_diplom.py"))
 
 

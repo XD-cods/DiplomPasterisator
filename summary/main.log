@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  14 JUN 2026 12:00
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.4.12)  14 JUN 2026 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -539,7 +539,7 @@ Overfull \hbox (28.45pt too wide) has occurred while \output is active
  []
 
 
-Overfull \vbox (815.87848pt too high) has occurred while \output is active []
+Overfull \vbox (813.03322pt too high) has occurred while \output is active []
 
 
 Overfull \hbox (501.25656pt too wide) has occurred while \output is active
